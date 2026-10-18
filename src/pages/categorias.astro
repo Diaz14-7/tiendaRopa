@@ -1,0 +1,20 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Mujer from "../components/Mujer.astro";
+import Hombre from "../components/Hombre.astro";
+---
+
+<Layout>
+  <main>
+    <Mujer />
+    <Hombre />
+  </main>
+</Layout>
+
+<style>
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+  }
+</style>
