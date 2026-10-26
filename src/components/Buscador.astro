@@ -1,0 +1,52 @@
+---
+
+---
+
+<div class="barra">
+  <div></div>
+
+  <img class="logo" src="/logo.png" alt="Logo Clothing" />
+
+  <label class="buscador">
+    <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+      <circle cx="10" cy="10" r="6" fill="none" stroke="#111" stroke-width="2"
+      ></circle>
+      <line x1="15" y1="15" x2="21" y2="21" stroke="#111" stroke-width="2"
+      ></line>
+    </svg>
+    <input type="text" placeholder="BUSCAR" />
+  </label>
+</div>
+
+<style>
+  .barra {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    padding: 1.5rem 2rem;
+  }
+
+  .logo {
+    height: 50px;
+    width: auto;
+  }
+
+  .buscador {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-self: end;
+    width: 180px;
+    padding: 0.3rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .buscador input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+</style>

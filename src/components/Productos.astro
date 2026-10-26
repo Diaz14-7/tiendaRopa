@@ -1,0 +1,87 @@
+---
+
+---
+
+<section class="productos">
+  <article>
+    <img src="/producto.jpg" alt="Abrigo largo pliegue espalda" />
+    <p class="nombre">Abrigo largo pliegue espalda</p>
+    <p class="precio">59,99 €</p>
+  </article>
+
+  <article>
+    <img src="/producto.jpg" alt="Abrigo largo pliegue pecho" />
+    <p class="nombre">Abrigo largo pliegue pecho</p>
+    <p class="precio">59,99 €</p>
+  </article>
+
+  <article>
+    <img src="/producto.jpg" alt="Abrigo acolchado extralargo" />
+    <p class="nombre">Abrigo acolchado extralargo</p>
+    <p class="precio">49,99 €</p>
+  </article>
+
+  <article>
+    <img src="/producto.jpg" alt="Gabardina vaquera" />
+    <p class="nombre">Gabardina vaquera</p>
+    <p class="precio">69,99 €</p>
+  </article>
+
+  <article>
+    <img src="/producto.jpg" alt="Abrigo paño" />
+    <p class="nombre">Abrigo paño</p>
+    <p class="precio">29,99 €</p>
+  </article>
+
+  <article>
+    <img src="/producto.jpg" alt="Abrigo acolchado capucha" />
+    <p class="nombre">Abrigo acolchado capucha</p>
+    <p class="precio">49,99 €</p>
+  </article>
+
+  <article>
+    <img src="/producto.jpg" alt="Abrigo borreguillo" />
+    <p class="nombre">Abrigo borreguillo</p>
+    <p class="precio">19,99 €</p>
+  </article>
+
+  <article>
+    <img src="/producto.jpg" alt="Jeans skinny rotos" />
+    <p class="nombre">Jeans skinny rotos</p>
+    <p class="precio">9,99 €</p>
+  </article>
+</section>
+
+<style>
+  .productos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 0.5rem;
+    row-gap: 4rem;
+    padding: 1rem 2rem 4rem 2rem;
+  }
+
+  article {
+    text-align: center;
+  }
+
+  article img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    display: block;
+    background: #eee;
+  }
+
+  .nombre {
+    margin: 0.6rem 0 0.2rem 0;
+    font-size: 0.7rem;
+    color: #444;
+  }
+
+  .precio {
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+</style>
